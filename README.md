@@ -16,6 +16,6 @@ I work mainly with **Python & Django** on the backend and **React + Tailwind** o
 ### 📫 Connect
 
 ✉️ [sharmasujana420@gmail.com](mailto:sharmasujana420@gmail.com)
-🔗 LinkedIn (add your link)
+🔗 LinkedIn (https://www.linkedin.com/in/sujana-sharma-49779934b/)
 
 ---
