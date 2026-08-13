@@ -1,15 +1,17 @@
-<svg width="100%" height="170" viewBox="0 0 1200 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<linearGradient id="footerGradient" x1="0" y1="0" x2="1200" y2="0">
-  <stop stop-color="#00F5FF"/>
-  <stop offset="0.5" stop-color="#8B5CF6"/>
-  <stop offset="1" stop-color="#EC4899"/>
+<linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+  <stop stop-color="#FFFFFF"/>
+  <stop offset="0.3" stop-color="#777777"/>
+  <stop offset="0.5" stop-color="#FFFFFF"/>
+  <stop offset="0.7" stop-color="#555555"/>
+  <stop offset="1" stop-color="#EEEEEE"/>
 </linearGradient>
 
 <filter id="glow">
-  <feGaussianBlur stdDeviation="3" result="blur"/>
+  <feGaussianBlur stdDeviation="4" result="blur"/>
   <feMerge>
     <feMergeNode in="blur"/>
     <feMergeNode in="SourceGraphic"/>
@@ -19,64 +21,88 @@
 </defs>
 
 <rect
-x="2"
-y="2"
-width="1196"
-height="166"
+x="3"
+y="3"
+width="1194"
+height="184"
 rx="24"
-fill="#05010D"
-stroke="url(#footerGradient)"
-stroke-opacity="0.3"/>
+fill="#080608"
+stroke="#FF008C"
+stroke-opacity="0.4"/>
+
+<!-- SPARKLES -->
+
+<g fill="#FF4FB3" filter="url(#glow)">
+
+<path d="M160 55 L164 68 L177 72 L164 76 L160 89 L156 76 L143 72 L156 68Z"/>
+
+<path d="M1040 95 L1043 105 L1053 108 L1043 111 L1040 121 L1037 111 L1027 108 L1037 105Z"/>
+
+</g>
+
+<!-- MAIN -->
 
 <text
 x="600"
-y="65"
+y="72"
 text-anchor="middle"
-font-family="Arial, sans-serif"
-font-size="28"
-font-weight="700"
-fill="url(#footerGradient)"
+font-family="Arial, Helvetica, sans-serif"
+font-size="36"
+font-weight="900"
+letter-spacing="5"
+fill="url(#chrome)"
 filter="url(#glow)">
-KEEP BUILDING. </text>
+KEEP BUILDING </text>
 
 <text
 x="600"
-y="95"
+y="103"
 text-anchor="middle"
 font-family="monospace"
 font-size="12"
-fill="#64748B">
-build • break • debug • learn • repeat </text>
+letter-spacing="3"
+fill="#FF4FB3">
+MAKE • BREAK • DEBUG • REPEAT </text>
 
-<line
-x1="440"
-y1="120"
-x2="760"
-y2="120"
-stroke="url(#footerGradient)"
-stroke-opacity="0.5">
+<!-- STATUS -->
+
+<rect
+x="450"
+y="125"
+width="300"
+height="30"
+rx="15"
+fill="#111111"
+stroke="#333333"/>
+
+<circle
+cx="470"
+cy="140"
+r="5"
+fill="#FF008C">
 
 <animate
- attributeName="x1"
- values="540;440;540"
- dur="4s"
- repeatCount="indefinite"/>
+attributeName="opacity"
+values="1;.2;1"
+dur="1s"
+repeatCount="indefinite"/>
 
-<animate
- attributeName="x2"
- values="660;760;660"
- dur="4s"
- repeatCount="indefinite"/>
-
-</line>
+</circle>
 
 <text
-x="600"
-y="145"
-text-anchor="middle"
+x="490"
+y="144"
 font-family="monospace"
 font-size="10"
-fill="#475569">
-SUJANA SHARMA • 2026 </text>
+fill="#777777">
+SYSTEM STATUS: </text>
+
+<text
+x="620"
+y="144"
+font-family="monospace"
+font-size="10"
+fill="#FFFFFF">
+BUILDING </text>
 
 </svg>
