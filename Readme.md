@@ -179,6 +179,6 @@ Uses Gemini to classify potential comment opportunities and interact with dynami
 
 <div align="center">
 
-<sub>made with ♡, questionable debugging decisions, and way too many browser tabs</sub>
+<sub>made with ♡, a lot of chiya coffe</sub>
 
 </div>
