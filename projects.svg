@@ -1,11 +1,13 @@
-<svg width="100%" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="210" viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<linearGradient id="line" x1="0" y1="0" x2="1200" y2="0">
-  <stop stop-color="#00F5FF"/>
-  <stop offset="0.5" stop-color="#8B5CF6"/>
-  <stop offset="1" stop-color="#EC4899"/>
+<linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+  <stop stop-color="#FFFFFF"/>
+  <stop offset="0.35" stop-color="#777777"/>
+  <stop offset="0.5" stop-color="#FFFFFF"/>
+  <stop offset="0.7" stop-color="#555555"/>
+  <stop offset="1" stop-color="#EEEEEE"/>
 </linearGradient>
 
 <filter id="glow">
@@ -18,47 +20,178 @@
 
 </defs>
 
-<!-- BASE LINE -->
+<rect
+x="3"
+y="3"
+width="1194"
+height="204"
+rx="24"
+fill="#0A0709"
+stroke="#FF008C"
+stroke-opacity="0.35"/>
 
-<line
-x1="80"
-y1="95"
-x2="1120"
-y2="95"
-stroke="url(#line)"
-stroke-opacity="0.25"/>
+<!-- HEADER -->
 
-<!-- MOVING LIGHT -->
+<text
+x="35"
+y="38"
+font-family="monospace"
+font-size="11"
+letter-spacing="3"
+fill="#FF4FB3">
+PROJECT_ARCHIVE </text>
 
-<circle cx="80" cy="95" r="4" fill="#00F5FF" filter="url(#glow)">
+<text
+x="1160"
+y="38"
+text-anchor="end"
+font-family="monospace"
+font-size="10"
+fill="#666666">
+06 ITEMS </text>
 
-<animate
-attributeName="cx"
-values="80;1120;80"
-dur="7s"
-repeatCount="indefinite"/>
+<!-- PROJECT WINDOWS -->
 
-</circle>
+<g font-family="monospace">
 
-<!-- PROJECT POINTS -->
+<!-- 1 -->
 
-<g font-family="monospace" text-anchor="middle">
+<rect x="35" y="65" width="175" height="105"
+rx="12" fill="#111111" stroke="#444444"/>
 
-<circle cx="180" cy="95" r="12" fill="#080014" stroke="#00F5FF" stroke-width="2"/>
-<text x="180" y="55" fill="#00F5FF" font-size="13">LEAD SCORING</text>
+<circle cx="53" cy="84" r="4" fill="#FF008C"/>
+<text x="68" y="88" fill="#666666" font-size="9">BUILD_001</text>
 
-<circle cx="390" cy="95" r="12" fill="#080014" stroke="#8B5CF6" stroke-width="2"/>
-<text x="390" y="125" fill="#A78BFA" font-size="13">FASHIONHUB</text>
+<text x="52" y="120" fill="url(#chrome)" font-size="13">
+LEAD
+</text>
 
-<circle cx="600" cy="95" r="12" fill="#080014" stroke="#EC4899" stroke-width="2"/>
-<text x="600" y="55" fill="#F472B6" font-size="13">HELLOTHERE</text>
+<text x="52" y="138" fill="#FF4FB3" font-size="13">
+SCORING
+</text>
 
-<circle cx="810" cy="95" r="12" fill="#080014" stroke="#F59E0B" stroke-width="2"/>
-<text x="810" y="125" fill="#FBBF24" font-size="13">BOOKIFY</text>
+<text x="52" y="157" fill="#555555" font-size="9">
+DJANGO
+</text>
 
-<circle cx="1020" cy="95" r="12" fill="#080014" stroke="#4ADE80" stroke-width="2"/>
-<text x="1020" y="55" fill="#4ADE80" font-size="13">NEON SURGE</text>
+<!-- 2 -->
+
+<rect x="230" y="65" width="175" height="105"
+rx="12" fill="#111111" stroke="#444444"/>
+
+<circle cx="248" cy="84" r="4" fill="#FF008C"/>
+<text x="263" y="88" fill="#666666" font-size="9">BUILD_002</text>
+
+<text x="247" y="120" fill="url(#chrome)" font-size="13">
+FASHION
+</text>
+
+<text x="247" y="138" fill="#FF4FB3" font-size="13">
+HUB
+</text>
+
+<text x="247" y="157" fill="#555555" font-size="9">
+DJANGO
+</text>
+
+<!-- 3 -->
+
+<rect x="425" y="65" width="175" height="105"
+rx="12" fill="#111111" stroke="#444444"/>
+
+<circle cx="443" cy="84" r="4" fill="#FF008C"/>
+<text x="458" y="88" fill="#666666" font-size="9">BUILD_003</text>
+
+<text x="442" y="120" fill="url(#chrome)" font-size="13">
+HELLO
+</text>
+
+<text x="442" y="138" fill="#FF4FB3" font-size="13">
+THERE
+</text>
+
+<text x="442" y="157" fill="#555555" font-size="9">
+WEBSOCKETS
+</text>
+
+<!-- 4 -->
+
+<rect x="620" y="65" width="175" height="105"
+rx="12" fill="#111111" stroke="#444444"/>
+
+<circle cx="638" cy="84" r="4" fill="#FF008C"/>
+<text x="653" y="88" fill="#666666" font-size="9">BUILD_004</text>
+
+<text x="637" y="120" fill="url(#chrome)" font-size="13">
+BOOK
+</text>
+
+<text x="637" y="138" fill="#FF4FB3" font-size="13">
+IFY
+</text>
+
+<text x="637" y="157" fill="#555555" font-size="9">
+ML / TF-IDF
+</text>
+
+<!-- 5 -->
+
+<rect x="815" y="65" width="175" height="105"
+rx="12" fill="#111111" stroke="#444444"/>
+
+<circle cx="833" cy="84" r="4" fill="#FF008C"/>
+<text x="848" y="88" fill="#666666" font-size="9">BUILD_005</text>
+
+<text x="832" y="120" fill="url(#chrome)" font-size="13">
+NEON
+</text>
+
+<text x="832" y="138" fill="#FF4FB3" font-size="13">
+SURGE
+</text>
+
+<text x="832" y="157" fill="#555555" font-size="9">
+GAME DEV
+</text>
+
+<!-- 6 -->
+
+<rect x="1010" y="65" width="155" height="105"
+rx="12" fill="#111111" stroke="#444444"/>
+
+<circle cx="1028" cy="84" r="4" fill="#FF008C"/>
+<text x="1043" y="88" fill="#666666" font-size="9">BUILD_006</text>
+
+<text x="1027" y="120" fill="url(#chrome)" font-size="13">
+AI
+</text>
+
+<text x="1027" y="138" fill="#FF4FB3" font-size="13">
+ASSISTANT
+</text>
+
+<text x="1027" y="157" fill="#555555" font-size="9">
+EXTENSION
+</text>
 
 </g>
+
+<!-- MOVING SCAN LINE -->
+
+<rect
+x="30"
+y="65"
+width="4"
+height="105"
+fill="#FF008C"
+filter="url(#glow)">
+
+<animate
+attributeName="x"
+values="30;1170;30"
+dur="6s"
+repeatCount="indefinite"/>
+
+</rect>
 
 </svg>
