@@ -8,7 +8,9 @@
 
 <div align="center">
 
-`✦ COMPUTER ENGINEERING`   `✦ PYTHON DEVELOPER`   `✦ FULL-STACK`
+`✦ COMPUTER ENGINEERING` &nbsp;&nbsp;
+`✦ PYTHON DEVELOPER` &nbsp;&nbsp;
+`✦ FULL-STACK`
 
 </div>
 
@@ -16,29 +18,17 @@
 
 ---
 
-## 💿 ABOUT ME
+## 💿 ABOUT SUJANA
 
-```text id="y2kabout"
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│  hey, i'm sujana ♡                                          │
-│                                                              │
-│  i build web applications, automation tools, and the        │
-│  occasional project that started with "this should be       │
-│  pretty easy..."                                            │
-│                                                              │
-│  🎓  final-year computer engineering student                │
-│  💻  python developer intern @ brand builder                │
-│  🐍  django / python enthusiast                             │
-│  ⚛️  react frontend enjoyer                                  │
-│  🤖  interested in automation + AI workflows                │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
+<div align="center">
+
+<img src="./about.svg" width="100%" alt="About Sujana"/>
+
+</div>
 
 ---
 
-## 🪩 MY TECH UNIVERSE
+## 🪩 THE STACK
 
 <div align="center">
 
@@ -50,23 +40,23 @@
 
 <div align="center">
 
-**LANGUAGES**
+### LANGUAGES
 
 `Python` `JavaScript`
 
-**BACKEND**
+### BACKEND
 
 `Django` `Django REST Framework`
 
-**FRONTEND**
+### FRONTEND
 
 `React` `Vite` `Tailwind CSS` `Framer Motion`
 
-**DATA / AUTOMATION**
+### DATA / AUTOMATION
 
 `Pandas` `BeautifulSoup` `Playwright` `schedule`
 
-**DATABASES / OTHER**
+### DATABASES / OTHER
 
 `PostgreSQL` `SQLite` `WebSockets` `REST APIs` `Git`
 
@@ -74,7 +64,7 @@
 
 ---
 
-## 💗 THINGS I'VE BUILT
+## 💗 PROJECT ARCHIVE
 
 <div align="center">
 
@@ -138,38 +128,28 @@ Uses Gemini to classify potential comment opportunities and interact with dynami
 
 ---
 
-## 🧃 CURRENTLY LOADING...
-
-```text id="loadingy2k"
-[████████████████████░░]  90%
-
-learning       → system design
-building       → django + react applications
-exploring      → AI-powered workflows
-experimenting  → automation + data
-debugging      → probably something I broke 5 minutes ago
-```
-
----
-
-## 🖥️ DEVELOPER STATUS
+## 🪩 A LITTLE MORE ABOUT ME
 
 <div align="center">
 
-|     STATUS     | CURRENT VALUE            |
-| :------------: | :----------------------- |
-|     `MODE`     | BUILDING                 |
-|     `BRAIN`    | 404 SOMETIMES            |
-|    `COFFEE`    | OPTIONAL BUT RECOMMENDED |
-|     `BUGS`     | FEATURED                 |
-|  `MOTIVATION`  | ████████████████         |
-| `NEXT PROJECT` | CLASSIFIED ✦             |
+`♡ building` &nbsp;&nbsp;
+`✦ experimenting` &nbsp;&nbsp;
+`♡ debugging` &nbsp;&nbsp;
+`✦ learning`
+
+<br><br>
+
+<img src="https://img.shields.io/badge/OPEN%20TABS-∞-111111?style=flat-square&labelColor=FF008C&color=111111"/>
+
+<img src="https://img.shields.io/badge/IDE-VSCODE-111111?style=flat-square&labelColor=FF4FB3&color=111111"/>
+
+<img src="https://img.shields.io/badge/MOOD-DEPENDS%20ON%20THE%20BUILD-111111?style=flat-square&labelColor=FFFFFF&color=111111"/>
 
 </div>
 
 ---
 
-## 📡 FIND ME ON THE INTERNET
+## 📡 FIND ME
 
 <div align="center">
 
