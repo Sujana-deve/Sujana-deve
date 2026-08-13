@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg" width="100%" alt="Sujana Sharma — Full Stack Developer"/>
+<img src="./hero.svg" width="100%" alt="Sujana Sharma"/>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-### `currently_building things that started as "just a script"`
+`✦ COMPUTER ENGINEERING`   `✦ PYTHON DEVELOPER`   `✦ FULL-STACK`
 
 </div>
 
@@ -16,30 +16,33 @@
 
 ---
 
-## ⚡ ABOUT ME
+## 💿 ABOUT ME
 
-```text
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│  👋  I'm Sujana Sharma                                         │
-│                                                                 │
-│  🎓  Final-year Computer Engineering student                   │
-│  💻  Python Developer Intern @ Brand Builder                  │
-│  🐍  Building with Python + Django                             │
-│  ⚛️  Creating interfaces with React                            │
-│  🤖  Exploring automation & AI-powered workflows              │
-│  📊  Turning data and messy processes into useful systems      │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+```text id="y2kabout"
+╭──────────────────────────────────────────────────────────────╮
+│                                                              │
+│  hey, i'm sujana ♡                                          │
+│                                                              │
+│  i build web applications, automation tools, and the        │
+│  occasional project that started with "this should be       │
+│  pretty easy..."                                            │
+│                                                              │
+│  🎓  final-year computer engineering student                │
+│  💻  python developer intern @ brand builder                │
+│  🐍  django / python enthusiast                             │
+│  ⚛️  react frontend enjoyer                                  │
+│  🤖  interested in automation + AI workflows                │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
 ```
 
 ---
 
-## 🪐 TECH UNIVERSE
+## 🪩 MY TECH UNIVERSE
 
 <div align="center">
 
-<img src="./stack.svg" width="100%" alt="Technology stack"/>
+<img src="./stack.svg" width="100%" alt="Sujana's technology stack"/>
 
 </div>
 
@@ -47,126 +50,139 @@
 
 <div align="center">
 
-`Python` · `Django` · `DRF` · `React` · `JavaScript` · `Vite`
-`Tailwind` · `Pandas` · `BeautifulSoup` · `Playwright`
-`PostgreSQL` · `SQLite` · `WebSockets` · `REST APIs` · `Git`
+**LANGUAGES**
+
+`Python` `JavaScript`
+
+**BACKEND**
+
+`Django` `Django REST Framework`
+
+**FRONTEND**
+
+`React` `Vite` `Tailwind CSS` `Framer Motion`
+
+**DATA / AUTOMATION**
+
+`Pandas` `BeautifulSoup` `Playwright` `schedule`
+
+**DATABASES / OTHER**
+
+`PostgreSQL` `SQLite` `WebSockets` `REST APIs` `Git`
 
 </div>
 
 ---
 
-## 🚀 PROJECT TIMELINE
+## 💗 THINGS I'VE BUILT
 
 <div align="center">
 
-<img src="./projects.svg" width="100%" alt="Project timeline"/>
+<img src="./projects.svg" width="100%" alt="Project archive"/>
 
 </div>
 
-### 🎯 Lead Scoring Automation
+<br>
 
-A Django dashboard for automated lead scoring using **exponential time decay**, a 30-day half-life, and compound scoring bonuses.
+### `01` — 🎯 Lead Scoring Automation
 
-Started as a Python script and evolved into a complete web application with CSV uploads, filtering, and results management.
+A Django dashboard built around **time-decay lead scoring**.
 
-**`Python` `Django` `Pandas`**
+It started as a Python script and grew into a system with exponential decay, a 30-day half-life, compound bonuses, CSV uploads, filtering, and a results interface.
 
----
-
-### 🛍️ FashionHub
-
-A full-stack Django e-commerce application with shopping cart, checkout, product reviews, authentication, password reset, order history, and **eSewa sandbox payments**.
-
-**`Django` `PostgreSQL` `eSewa`**
+`Python` `Django` `Pandas`
 
 ---
 
-### 💬 HelloThere
+### `02` — 🛍️ FashionHub
 
-A real-time chat application built with a Django Channels backend and React frontend.
+A Django e-commerce application with cart, checkout, product reviews, authentication, password reset, order history, and **eSewa sandbox payments**.
 
-Explores persistent connections and real-time communication through WebSockets.
-
-**`Django Channels` `React` `WebSockets`**
+`Django` `PostgreSQL` `eSewa`
 
 ---
 
-### 📚 Bookify
+### `03` — 💬 HelloThere
 
-A content-based book recommendation system using **TF-IDF** and **cosine similarity** to find books with similar content.
+A real-time chat application with a Django Channels backend and React frontend.
 
-**`Python` `scikit-learn`**
+Built around WebSockets and persistent real-time communication.
+
+`Django Channels` `React` `WebSockets`
 
 ---
 
-### 🎮 Neon Surge
+### `04` — 📚 Bookify
+
+A book recommendation system using **TF-IDF + cosine similarity** to discover books with similar content.
+
+`Python` `scikit-learn`
+
+---
+
+### `05` — 🎮 Neon Surge
 
 A browser game released on CrazyGames with platform SDK integration.
 
-**`JavaScript` `Game Development`**
+`JavaScript` `Game Development`
 
 ---
 
-### 🧩 LinkedIn Comment Assistant
+### `06` — 🧩 AI Comment Assistant
 
 A Chrome extension exploring AI-assisted intent filtering and automated browser workflows.
 
-Uses Gemini for classifying comment opportunities and handling dynamically rendered content.
+Uses Gemini to classify potential comment opportunities and interact with dynamically rendered content.
 
-**`JavaScript` `Chrome Extension` `Gemini API`**
+`JavaScript` `Chrome Extension` `Gemini API`
 
 ---
 
-## 🧠 THE DEVELOPER LOOP
+## 🧃 CURRENTLY LOADING...
+
+```text id="loadingy2k"
+[████████████████████░░]  90%
+
+learning       → system design
+building       → django + react applications
+exploring      → AI-powered workflows
+experimenting  → automation + data
+debugging      → probably something I broke 5 minutes ago
+```
+
+---
+
+## 🖥️ DEVELOPER STATUS
 
 <div align="center">
 
-```text
-        ┌─────────┐
-        │  IDEA   │
-        └────┬────┘
-             ↓
-        ┌─────────┐
-        │  BUILD  │
-        └────┬────┘
-             ↓
-        ┌─────────┐
-        │  BREAK  │
-        └────┬────┘
-             ↓
-        ┌─────────┐
-        │  DEBUG  │
-        └────┬────┘
-             ↓
-        ┌─────────┐
-        │  LEARN  │
-        └────┬────┘
-             ↓
-        ┌─────────┐
-        │ REPEAT  │
-        └────┬────┘
-             │
-             └────────── 🚀
-```
+|     STATUS     | CURRENT VALUE            |
+| :------------: | :----------------------- |
+|     `MODE`     | BUILDING                 |
+|     `BRAIN`    | 404 SOMETIMES            |
+|    `COFFEE`    | OPTIONAL BUT RECOMMENDED |
+|     `BUGS`     | FEATURED                 |
+|  `MOTIVATION`  | ████████████████         |
+| `NEXT PROJECT` | CLASSIFIED ✦             |
 
 </div>
 
 ---
 
-## 📡 CONNECT
+## 📡 FIND ME ON THE INTERNET
 
 <div align="center">
 
 <a href="https://sujanasharma.com.np">
-<img src="https://img.shields.io/badge/PORTFOLIO-Visit-00F5FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=080014"/>
+<img src="https://img.shields.io/badge/♡%20PORTFOLIO-FF008C?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111111"/>
 </a>
 
 <a href="https://www.linkedin.com/in/sujana-sharma-49779934b/">
-<img src="https://img.shields.io/badge/LINKEDIN-Connect-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=080014"/>
+<img src="https://img.shields.io/badge/♡%20LINKEDIN-FF4FB3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111111"/>
 </a>
 
 <a href="mailto:sharmasujana420@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-Say%20Hello-EC4899?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080014"/>
+<img src="https://img.shields.io/badge/♡%20EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=111111"/>
 </a>
 
 </div>
@@ -176,5 +192,13 @@ Uses Gemini for classifying comment opportunities and handling dynamically rende
 <div align="center">
 
 <img src="./footer.svg" width="100%" alt="Keep building"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<sub>made with ♡, questionable debugging decisions, and way too many browser tabs</sub>
 
 </div>
