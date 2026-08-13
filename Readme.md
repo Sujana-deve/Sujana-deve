@@ -74,7 +74,7 @@
 
 <br>
 
-### `01` — 🎯 Lead Scoring Automation
+### `01` —  Lead Scoring Automation
 
 A Django dashboard built around **time-decay lead scoring**.
 
@@ -84,7 +84,7 @@ It started as a Python script and grew into a system with exponential decay, a 3
 
 ---
 
-### `02` — 🛍️ FashionHub
+### `02` —  FashionHub
 
 A Django e-commerce application with cart, checkout, product reviews, authentication, password reset, order history, and **eSewa sandbox payments**.
 
@@ -92,7 +92,7 @@ A Django e-commerce application with cart, checkout, product reviews, authentica
 
 ---
 
-### `03` — 💬 HelloThere
+### `03` —  HelloThere
 
 A real-time chat application with a Django Channels backend and React frontend.
 
@@ -102,7 +102,7 @@ Built around WebSockets and persistent real-time communication.
 
 ---
 
-### `04` — 📚 Bookify
+### `04` —  Bookify
 
 A book recommendation system using **TF-IDF + cosine similarity** to discover books with similar content.
 
@@ -110,7 +110,7 @@ A book recommendation system using **TF-IDF + cosine similarity** to discover bo
 
 ---
 
-### `05` — 🎮 Neon Surge
+### `05` —  Neon Surge
 
 A browser game released on CrazyGames with platform SDK integration.
 
@@ -118,7 +118,7 @@ A browser game released on CrazyGames with platform SDK integration.
 
 ---
 
-### `06` — 🧩 AI Comment Assistant
+### `06` —  AI Comment Assistant
 
 A Chrome extension exploring AI-assisted intent filtering and automated browser workflows.
 
@@ -179,6 +179,6 @@ Uses Gemini to classify potential comment opportunities and interact with dynami
 
 <div align="center">
 
-<sub>made with ♡, a lot of chiya coffe</sub>
+<sub>made with ♡ and a lot of chiya coffe</sub>
 
 </div>
