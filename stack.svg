@@ -1,144 +1,175 @@
-<svg width="100%" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<linearGradient id="border" x1="0" y1="0" x2="1000" y2="260">
-  <stop stop-color="#00F5FF"/>
-  <stop offset="0.5" stop-color="#8B5CF6"/>
-  <stop offset="1" stop-color="#EC4899"/>
+<linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+  <stop stop-color="#FFFFFF"/>
+  <stop offset="0.3" stop-color="#777777"/>
+  <stop offset="0.5" stop-color="#FFFFFF"/>
+  <stop offset="0.7" stop-color="#555555"/>
+  <stop offset="1" stop-color="#EEEEEE"/>
 </linearGradient>
 
 <filter id="glow">
-  <feGaussianBlur stdDeviation="3" result="blur"/>
+  <feGaussianBlur stdDeviation="4" result="blur"/>
   <feMerge>
     <feMergeNode in="blur"/>
     <feMergeNode in="SourceGraphic"/>
   </feMerge>
 </filter>
 
-<radialGradient id="core">
-  <stop stop-color="#8B5CF6" stop-opacity="0.4"/>
-  <stop offset="1" stop-color="#080014" stop-opacity="0"/>
-</radialGradient>
-
 </defs>
 
 <!-- CARD -->
 
 <rect
-x="2"
-y="2"
-width="996"
-height="256"
+x="3"
+y="3"
+width="1194"
+height="294"
 rx="24"
-fill="#080014"
-stroke="url(#border)"
+fill="#0B080A"
+stroke="#FF008C"
 stroke-opacity="0.35"/>
 
-<!-- GLOW -->
-
-<circle cx="500" cy="130" r="100" fill="url(#core)">
-  <animate attributeName="r"
-    values="70;120;70"
-    dur="5s"
-    repeatCount="indefinite"/>
-</circle>
-
-<!-- CENTER -->
-
-<circle
-cx="500"
-cy="130"
-r="54"
-fill="#100021"
-stroke="#8B5CF6"
-stroke-width="2"
-filter="url(#glow)"/>
+<!-- HEADER -->
 
 <text
-x="500"
-y="126"
-text-anchor="middle"
+x="45"
+y="48"
 font-family="monospace"
-font-size="15"
-font-weight="bold"
-fill="#fff">
-PYTHON </text>
+font-size="11"
+letter-spacing="3"
+fill="#FF4FB3">
+SYSTEM://TECH_STACK </text>
 
 <text
-x="500"
-y="146"
-text-anchor="middle"
+x="1150"
+y="48"
+text-anchor="end"
 font-family="monospace"
-font-size="9"
-fill="#64748B">
-CORE </text>
+font-size="10"
+fill="#666666">
+v2.026 </text>
 
-<!-- ORBIT -->
+<!-- CENTRAL CD -->
 
-<ellipse
-cx="500"
-cy="130"
-rx="340"
-ry="88"
+<g transform="translate(600 150)">
+
+<circle r="72"
+fill="#111111"
+stroke="#777777"
+stroke-width="2"/>
+
+<circle r="58"
 fill="none"
-stroke="#8B5CF6"
-stroke-opacity="0.25"
-stroke-dasharray="4 12">
+stroke="url(#chrome)"
+stroke-width="9"/>
+
+<circle r="42"
+fill="none"
+stroke="#FF008C"
+stroke-width="2"
+stroke-opacity="0.7"/>
+
+<circle r="15"
+fill="#090909"
+stroke="#FFFFFF"
+stroke-opacity="0.5"/>
+
+<circle r="4" fill="#FF008C" filter="url(#glow)"/>
 
 <animateTransform
- attributeName="transform"
- type="rotate"
- from="0 500 130"
- to="360 500 130"
- dur="18s"
- repeatCount="indefinite"/> </ellipse>
+attributeName="transform"
+type="rotate"
+from="0 0 0"
+to="360 0 0"
+dur="15s"
+repeatCount="indefinite"/>
 
-<!-- NODES -->
+</g>
 
-<g font-family="monospace" font-size="11" text-anchor="middle">
+<!-- CONNECTING LINES -->
+
+<g stroke="#FF008C" stroke-opacity="0.35">
+
+<line x1="190" y1="105" x2="535" y2="145"/>
+<line x1="330" y1="225" x2="545" y2="170"/>
+<line x1="1010" y1="105" x2="665" y2="145"/>
+<line x1="870" y1="225" x2="655" y2="170"/>
+
+</g>
+
+<!-- TECH LABELS -->
+
+<g font-family="monospace">
 
 <!-- DJANGO -->
 
-<circle cx="190" cy="130" r="34" fill="#0D0618" stroke="#00F5FF"/>
-<text x="190" y="134" fill="#00F5FF">DJANGO</text>
+<rect x="80" y="78" width="220" height="55" rx="10"
+fill="#111111" stroke="#555555"/>
 
-<!-- REACT -->
+<text x="100" y="101" fill="#FF4FB3" font-size="11">
+BACKEND
+</text>
 
-<circle cx="300" cy="55" r="34" fill="#0D0618" stroke="#61DAFB"/>
-<text x="300" y="59" fill="#61DAFB">REACT</text>
+<text x="100" y="120" fill="url(#chrome)" font-size="14">
+DJANGO / DRF
+</text>
 
-<!-- JAVASCRIPT -->
+<!-- PYTHON -->
 
-<circle cx="700" cy="55" r="34" fill="#0D0618" stroke="#F7DF1E"/>
-<text x="700" y="59" fill="#F7DF1E">JS</text>
+<rect x="80" y="195" width="220" height="55" rx="10"
+fill="#111111" stroke="#555555"/>
 
-<!-- PANDAS -->
+<text x="100" y="218" fill="#FF4FB3" font-size="11">
+LANGUAGE
+</text>
 
-<circle cx="810" cy="130" r="34" fill="#0D0618" stroke="#EC4899"/>
-<text x="810" y="134" fill="#EC4899">PANDAS</text>
+<text x="100" y="237" fill="url(#chrome)" font-size="14">
+PYTHON
+</text>
 
-<!-- POSTGRES -->
+<!-- FRONTEND -->
 
-<circle cx="700" cy="205" r="34" fill="#0D0618" stroke="#38BDF8"/>
-<text x="700" y="209" fill="#38BDF8">SQL</text>
+<rect x="900" y="78" width="220" height="55" rx="10"
+fill="#111111" stroke="#555555"/>
 
-<!-- PLAYWRIGHT -->
+<text x="920" y="101" fill="#FF4FB3" font-size="11">
+FRONTEND
+</text>
 
-<circle cx="300" cy="205" r="34" fill="#0D0618" stroke="#4ADE80"/>
-<text x="300" y="209" fill="#4ADE80">PLAYWRIGHT</text>
+<text x="920" y="120" fill="url(#chrome)" font-size="14">
+REACT / VITE
+</text>
+
+<!-- DATA -->
+
+<rect x="900" y="195" width="220" height="55" rx="10"
+fill="#111111" stroke="#555555"/>
+
+<text x="920" y="218" fill="#FF4FB3" font-size="11">
+DATA / AUTOMATION
+</text>
+
+<text x="920" y="237" fill="url(#chrome)" font-size="14">
+PANDAS / PLAYWRIGHT
+</text>
 
 </g>
 
-<!-- CONNECTIONS -->
+<!-- SCAN -->
 
-<g stroke="#8B5CF6" stroke-opacity="0.2">
-<line x1="224" y1="130" x2="446" y2="130"/>
-<line x1="328" y1="68" x2="458" y2="108"/>
-<line x1="672" y1="68" x2="542" y2="108"/>
-<line x1="776" y1="130" x2="554" y2="130"/>
-<line x1="672" y1="192" x2="542" y2="152"/>
-<line x1="328" y1="192" x2="458" y2="152"/>
-</g>
+<rect x="20" y="150" width="1160" height="1"
+fill="#FF008C"
+opacity="0.15">
+
+<animate
+attributeName="y"
+values="70;270;70"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
 
 </svg>
