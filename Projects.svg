@@ -1,0 +1,64 @@
+<svg width="100%" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="line" x1="0" y1="0" x2="1200" y2="0">
+  <stop stop-color="#00F5FF"/>
+  <stop offset="0.5" stop-color="#8B5CF6"/>
+  <stop offset="1" stop-color="#EC4899"/>
+</linearGradient>
+
+<filter id="glow">
+  <feGaussianBlur stdDeviation="4" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+</defs>
+
+<!-- BASE LINE -->
+
+<line
+x1="80"
+y1="95"
+x2="1120"
+y2="95"
+stroke="url(#line)"
+stroke-opacity="0.25"/>
+
+<!-- MOVING LIGHT -->
+
+<circle cx="80" cy="95" r="4" fill="#00F5FF" filter="url(#glow)">
+
+<animate
+attributeName="cx"
+values="80;1120;80"
+dur="7s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- PROJECT POINTS -->
+
+<g font-family="monospace" text-anchor="middle">
+
+<circle cx="180" cy="95" r="12" fill="#080014" stroke="#00F5FF" stroke-width="2"/>
+<text x="180" y="55" fill="#00F5FF" font-size="13">LEAD SCORING</text>
+
+<circle cx="390" cy="95" r="12" fill="#080014" stroke="#8B5CF6" stroke-width="2"/>
+<text x="390" y="125" fill="#A78BFA" font-size="13">FASHIONHUB</text>
+
+<circle cx="600" cy="95" r="12" fill="#080014" stroke="#EC4899" stroke-width="2"/>
+<text x="600" y="55" fill="#F472B6" font-size="13">HELLOTHERE</text>
+
+<circle cx="810" cy="95" r="12" fill="#080014" stroke="#F59E0B" stroke-width="2"/>
+<text x="810" y="125" fill="#FBBF24" font-size="13">BOOKIFY</text>
+
+<circle cx="1020" cy="95" r="12" fill="#080014" stroke="#4ADE80" stroke-width="2"/>
+<text x="1020" y="55" fill="#4ADE80" font-size="13">NEON SURGE</text>
+
+</g>
+
+</svg>
