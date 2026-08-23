@@ -8,9 +8,9 @@
 
 <div align="center">
 
-`✦ COMPUTER ENGINEERING` &nbsp;&nbsp;
-`✦ PYTHON DEVELOPER` &nbsp;&nbsp;
-`✦ FULL-STACK`
+`COMPUTER_ENGINEERING` &nbsp;&nbsp;
+`PYTHON_DEVELOPER` &nbsp;&nbsp;
+`FULL_STACK`
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 💿 ABOUT SUJANA
+## ABOUT_SUJANA
 
 <div align="center">
 
@@ -28,7 +28,7 @@
 
 ---
 
-## 🪩 THE STACK
+## TECH_STACK
 
 <div align="center">
 
@@ -64,7 +64,7 @@
 
 ---
 
-## 💗 PROJECT ARCHIVE
+## PROJECT_ARCHIVE
 
 <div align="center">
 
@@ -128,20 +128,20 @@ Uses Gemini to classify potential comment opportunities and interact with dynami
 
 ---
 
-## 🪩 A LITTLE MORE ABOUT ME
+## MISC
 
 <div align="center">
 
-`♡ building` &nbsp;&nbsp;
-`✦ experimenting` &nbsp;&nbsp;
-`♡ debugging` &nbsp;&nbsp;
-`✦ learning`
+`building` &nbsp;&nbsp;
+`experimenting` &nbsp;&nbsp;
+`debugging` &nbsp;&nbsp;
+`learning`
 
 <br><br>
 
-<img src="https://img.shields.io/badge/OPEN%20TABS-∞-111111?style=flat-square&labelColor=FF008C&color=111111"/>
+<img src="https://img.shields.io/badge/OPEN%20TABS-∞-111111?style=flat-square&labelColor=00FF9C&color=111111"/>
 
-<img src="https://img.shields.io/badge/IDE-VSCODE-111111?style=flat-square&labelColor=FF4FB3&color=111111"/>
+<img src="https://img.shields.io/badge/IDE-VSCODE-111111?style=flat-square&labelColor=00E5FF&color=111111"/>
 
 <img src="https://img.shields.io/badge/MOOD-DEPENDS%20ON%20THE%20BUILD-111111?style=flat-square&labelColor=FFFFFF&color=111111"/>
 
@@ -149,20 +149,20 @@ Uses Gemini to classify potential comment opportunities and interact with dynami
 
 ---
 
-## 📡 FIND ME
+## FIND_ME
 
 <div align="center">
 
 <a href="https://sujanasharma.com.np">
-<img src="https://img.shields.io/badge/♡%20PORTFOLIO-FF008C?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111111"/>
+<img src="https://img.shields.io/badge/PORTFOLIO-00FF9C?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111111"/>
 </a>
 
 <a href="https://www.linkedin.com/in/sujana-sharma-49779934b/">
-<img src="https://img.shields.io/badge/♡%20LINKEDIN-FF4FB3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111111"/>
+<img src="https://img.shields.io/badge/LINKEDIN-00E5FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111111"/>
 </a>
 
 <a href="mailto:sharmasujana420@gmail.com">
-<img src="https://img.shields.io/badge/♡%20EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=111111"/>
+<img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=111111"/>
 </a>
 
 </div>
@@ -179,6 +179,6 @@ Uses Gemini to classify potential comment opportunities and interact with dynami
 
 <div align="center">
 
-<sub>made with ♡ and a lot of chiya coffe</sub>
+<sub>built with caffeine and stubbornness</sub>
 
 </div>
