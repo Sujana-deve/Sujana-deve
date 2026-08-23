@@ -1,308 +1,107 @@
 <svg width="100%" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
+  <clipPath id="clipName">
+    <rect x="60" y="110" width="0" height="90">
+      <animate attributeName="width" values="0;620;620" keyTimes="0;0.7;1" dur="2.6s" begin="0.3s" fill="freeze"/>
+    </rect>
+  </clipPath>
 
-  <!-- CHROME -->
+  <clipPath id="clipRole">
+    <rect x="0" y="0" width="0" height="40">
+      <animate attributeName="width" values="0;420;420" keyTimes="0;0.7;1" dur="1.6s" begin="2.6s" fill="freeze"/>
+    </rect>
+  </clipPath>
 
-  <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#FFFFFF"/>
-    <stop offset="0.18" stop-color="#A8A8A8"/>
-    <stop offset="0.34" stop-color="#FFFFFF"/>
-    <stop offset="0.52" stop-color="#666666"/>
-    <stop offset="0.7" stop-color="#F5F5F5"/>
-    <stop offset="1" stop-color="#777777"/>
-  </linearGradient>
-
-  <!-- PINK -->
-
-  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#8CFFCE"/>
-    <stop offset="0.3" stop-color="#00E5FF"/>
-    <stop offset="0.65" stop-color="#00FF9C"/>
-    <stop offset="1" stop-color="#00E5FF"/>
-  </linearGradient>
-
-  <!-- BACKGROUND -->
-
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360">
-    <stop stop-color="#090609"/>
-    <stop offset="0.5" stop-color="#140910"/>
-    <stop offset="1" stop-color="#050505"/>
-  </linearGradient>
-
-  <!-- GLOW -->
-
-  <filter id="pinkGlow">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
-
-  <filter id="softGlow">
-    <feGaussianBlur stdDeviation="20"/>
-  </filter>
-
-  <!-- GRID -->
-
-  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
-    <path
-      d="M35 0H0V35"
-      stroke="#00FF9C"
-      stroke-opacity="0.07"
-      stroke-width="1"/>
-  </pattern>
-
-  <!-- GRAIN -->
-
-  <filter id="grain">
-    <feTurbulence
-      type="fractalNoise"
-      baseFrequency="0.9"
-      numOctaves="3"
-      stitchTiles="stitch"/>
-    <feColorMatrix type="saturate" values="0"/>
-    <feComponentTransfer>
-      <feFuncA type="table" tableValues="0 0.07"/>
-    </feComponentTransfer>
-  </filter>
-
+  <clipPath id="clipCmd">
+    <rect x="0" y="0" width="0" height="30">
+      <animate attributeName="width" values="0;520;520" keyTimes="0;0.7;1" dur="1.8s" begin="4.0s" fill="freeze"/>
+    </rect>
+  </clipPath>
 </defs>
 
-<!-- BACKGROUND -->
+<rect width="1200" height="360" rx="10" fill="#050705"/>
+<rect x="1" y="1" width="1198" height="358" rx="9" fill="none" stroke="#1a2e22" stroke-width="1"/>
 
-<rect width="1200" height="360" rx="26" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="26" fill="url(#grid)"/>
-
-<!-- PINK AMBIENT LIGHT -->
-
-<circle
-cx="170"
-cy="100"
-r="150"
-fill="#00FF9C"
-opacity="0.12"
-filter="url(#softGlow)">
-
-<animate
- attributeName="cx"
- values="170;1030;170"
- dur="12s"
- repeatCount="indefinite"/>
-
-</circle>
-
-<!-- TOP BAR -->
-
-<rect
-x="35"
-y="28"
-width="1130"
-height="34"
-rx="8"
-fill="#111111"
-stroke="#FFFFFF"
-stroke-opacity="0.15"/>
-
-<circle cx="55" cy="45" r="5" fill="#00FF9C"/>
-<circle cx="72" cy="45" r="5" fill="#FFFFFF"/>
-<circle cx="89" cy="45" r="5" fill="#777777"/>
-
-<text
-x="110"
-y="50"
-font-family="monospace"
-font-size="11"
-letter-spacing="2"
-fill="#999999">
-SUJANA_OS // PERSONAL_INTERFACE </text>
-
-<text
-x="1125"
-y="50"
-text-anchor="end"
-font-family="monospace"
-font-size="10"
-fill="#00E5FF">
-ONLINE ● </text>
-
-<!-- STAR FIELD -->
-
-<g fill="#FFFFFF">
-
-<circle cx="110" cy="110" r="2">
-  <animate attributeName="opacity"
-    values=".2;1;.2"
-    dur="2s"
-    repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1080" cy="95" r="1.5">
-  <animate attributeName="opacity"
-    values="1;.2;1"
-    dur="2.5s"
-    repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1010" cy="280" r="2">
-  <animate attributeName="opacity"
-    values=".2;1;.2"
-    dur="1.8s"
-    repeatCount="indefinite"/>
-</circle>
-
-<circle cx="150" cy="280" r="1.5">
-  <animate attributeName="opacity"
-    values="1;.2;1"
-    dur="3s"
-    repeatCount="indefinite"/>
-</circle>
-
+<g clip-path="inset(0 round 10px)">
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="19" dy="13" opacity="1.0">ウ</tspan><tspan x="19" dy="13" opacity="0.83">サ</tspan><tspan x="19" dy="13" opacity="0.67">1</tspan><tspan x="19" dy="13" opacity="0.5">ア</tspan><tspan x="19" dy="13" opacity="0.33">$</tspan><tspan x="19" dy="13" opacity="0.17">イ</tspan><animateTransform attributeName="transform" type="translate" values="0 -101;0 299" dur="5.0s" begin="-0.3s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="56" dy="13" opacity="1.0">1</tspan><tspan x="56" dy="13" opacity="0.8">ア</tspan><tspan x="56" dy="13" opacity="0.6">シ</tspan><tspan x="56" dy="13" opacity="0.4">シ</tspan><tspan x="56" dy="13" opacity="0.2">ア</tspan><animateTransform attributeName="transform" type="translate" values="0 -330;0 70" dur="4.5s" begin="-2.5s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="94" dy="13" opacity="1.0">イ</tspan><tspan x="94" dy="13" opacity="0.88">カ</tspan><tspan x="94" dy="13" opacity="0.75">#</tspan><tspan x="94" dy="13" opacity="0.62">1</tspan><tspan x="94" dy="13" opacity="0.5">#</tspan><tspan x="94" dy="13" opacity="0.38">#</tspan><tspan x="94" dy="13" opacity="0.25">サ</tspan><tspan x="94" dy="13" opacity="0.12">1</tspan><animateTransform attributeName="transform" type="translate" values="0 -292;0 108" dur="7.4s" begin="-0.3s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="131" dy="13" opacity="1.0">シ</tspan><tspan x="131" dy="13" opacity="0.83">ウ</tspan><tspan x="131" dy="13" opacity="0.67">$</tspan><tspan x="131" dy="13" opacity="0.5">イ</tspan><tspan x="131" dy="13" opacity="0.33">#</tspan><tspan x="131" dy="13" opacity="0.17">ク</tspan><animateTransform attributeName="transform" type="translate" values="0 -308;0 92" dur="5.7s" begin="-3.9s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="169" dy="13" opacity="1.0">#</tspan><tspan x="169" dy="13" opacity="0.88">オ</tspan><tspan x="169" dy="13" opacity="0.75">コ</tspan><tspan x="169" dy="13" opacity="0.62">イ</tspan><tspan x="169" dy="13" opacity="0.5">$</tspan><tspan x="169" dy="13" opacity="0.38">ア</tspan><tspan x="169" dy="13" opacity="0.25">#</tspan><tspan x="169" dy="13" opacity="0.12">1</tspan><animateTransform attributeName="transform" type="translate" values="0 -88;0 312" dur="6.0s" begin="-3.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="206" dy="13" opacity="1.0">ケ</tspan><tspan x="206" dy="13" opacity="0.86">ス</tspan><tspan x="206" dy="13" opacity="0.71">#</tspan><tspan x="206" dy="13" opacity="0.57">ス</tspan><tspan x="206" dy="13" opacity="0.43">コ</tspan><tspan x="206" dy="13" opacity="0.29">ク</tspan><tspan x="206" dy="13" opacity="0.14">カ</tspan><animateTransform attributeName="transform" type="translate" values="0 -236;0 164" dur="6.7s" begin="-4.7s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="244" dy="13" opacity="1.0">#</tspan><tspan x="244" dy="13" opacity="0.75">ク</tspan><tspan x="244" dy="13" opacity="0.5">ソ</tspan><tspan x="244" dy="13" opacity="0.25">セ</tspan><animateTransform attributeName="transform" type="translate" values="0 -213;0 187" dur="7.0s" begin="-5.1s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="281" dy="13" opacity="1.0">ア</tspan><tspan x="281" dy="13" opacity="0.88">イ</tspan><tspan x="281" dy="13" opacity="0.75">ソ</tspan><tspan x="281" dy="13" opacity="0.62">シ</tspan><tspan x="281" dy="13" opacity="0.5">エ</tspan><tspan x="281" dy="13" opacity="0.38">ケ</tspan><tspan x="281" dy="13" opacity="0.25">ウ</tspan><tspan x="281" dy="13" opacity="0.12">セ</tspan><animateTransform attributeName="transform" type="translate" values="0 -321;0 79" dur="5.2s" begin="-5.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="319" dy="13" opacity="1.0">#</tspan><tspan x="319" dy="13" opacity="0.88">ケ</tspan><tspan x="319" dy="13" opacity="0.75">ケ</tspan><tspan x="319" dy="13" opacity="0.62">コ</tspan><tspan x="319" dy="13" opacity="0.5">%</tspan><tspan x="319" dy="13" opacity="0.38">セ</tspan><tspan x="319" dy="13" opacity="0.25">#</tspan><tspan x="319" dy="13" opacity="0.12">ス</tspan><animateTransform attributeName="transform" type="translate" values="0 -222;0 178" dur="3.8s" begin="-0.4s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="356" dy="13" opacity="1.0">ア</tspan><tspan x="356" dy="13" opacity="0.86">1</tspan><tspan x="356" dy="13" opacity="0.71">ク</tspan><tspan x="356" dy="13" opacity="0.57">#</tspan><tspan x="356" dy="13" opacity="0.43">ス</tspan><tspan x="356" dy="13" opacity="0.29">ク</tspan><tspan x="356" dy="13" opacity="0.14">サ</tspan><animateTransform attributeName="transform" type="translate" values="0 -124;0 276" dur="7.0s" begin="-2.4s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="394" dy="13" opacity="1.0">エ</tspan><tspan x="394" dy="13" opacity="0.83">%</tspan><tspan x="394" dy="13" opacity="0.67">イ</tspan><tspan x="394" dy="13" opacity="0.5">セ</tspan><tspan x="394" dy="13" opacity="0.33">1</tspan><tspan x="394" dy="13" opacity="0.17">オ</tspan><animateTransform attributeName="transform" type="translate" values="0 -234;0 166" dur="6.6s" begin="-0.9s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="431" dy="13" opacity="1.0">サ</tspan><tspan x="431" dy="13" opacity="0.86">セ</tspan><tspan x="431" dy="13" opacity="0.71">ア</tspan><tspan x="431" dy="13" opacity="0.57">エ</tspan><tspan x="431" dy="13" opacity="0.43">ス</tspan><tspan x="431" dy="13" opacity="0.29">サ</tspan><tspan x="431" dy="13" opacity="0.14">$</tspan><animateTransform attributeName="transform" type="translate" values="0 -140;0 260" dur="4.6s" begin="-0.6s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="469" dy="13" opacity="1.0">キ</tspan><tspan x="469" dy="13" opacity="0.88">シ</tspan><tspan x="469" dy="13" opacity="0.75">コ</tspan><tspan x="469" dy="13" opacity="0.62">サ</tspan><tspan x="469" dy="13" opacity="0.5">カ</tspan><tspan x="469" dy="13" opacity="0.38">ウ</tspan><tspan x="469" dy="13" opacity="0.25">ア</tspan><tspan x="469" dy="13" opacity="0.12">エ</tspan><animateTransform attributeName="transform" type="translate" values="0 -354;0 46" dur="4.1s" begin="-2.7s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="506" dy="13" opacity="1.0">#</tspan><tspan x="506" dy="13" opacity="0.86">エ</tspan><tspan x="506" dy="13" opacity="0.71">キ</tspan><tspan x="506" dy="13" opacity="0.57">ク</tspan><tspan x="506" dy="13" opacity="0.43">0</tspan><tspan x="506" dy="13" opacity="0.29">ウ</tspan><tspan x="506" dy="13" opacity="0.14">シ</tspan><animateTransform attributeName="transform" type="translate" values="0 -197;0 203" dur="5.6s" begin="-3.4s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="544" dy="13" opacity="1.0">ソ</tspan><tspan x="544" dy="13" opacity="0.8">%</tspan><tspan x="544" dy="13" opacity="0.6">1</tspan><tspan x="544" dy="13" opacity="0.4">ス</tspan><tspan x="544" dy="13" opacity="0.2">$</tspan><animateTransform attributeName="transform" type="translate" values="0 -307;0 93" dur="5.1s" begin="-2.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="581" dy="13" opacity="1.0">サ</tspan><tspan x="581" dy="13" opacity="0.86">1</tspan><tspan x="581" dy="13" opacity="0.71">オ</tspan><tspan x="581" dy="13" opacity="0.57">ア</tspan><tspan x="581" dy="13" opacity="0.43">オ</tspan><tspan x="581" dy="13" opacity="0.29">ス</tspan><tspan x="581" dy="13" opacity="0.14">エ</tspan><animateTransform attributeName="transform" type="translate" values="0 -308;0 92" dur="3.9s" begin="-2.3s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="619" dy="13" opacity="1.0">#</tspan><tspan x="619" dy="13" opacity="0.75">ウ</tspan><tspan x="619" dy="13" opacity="0.5">$</tspan><tspan x="619" dy="13" opacity="0.25">イ</tspan><animateTransform attributeName="transform" type="translate" values="0 -324;0 76" dur="7.3s" begin="-4.5s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="656" dy="13" opacity="1.0">%</tspan><tspan x="656" dy="13" opacity="0.8">サ</tspan><tspan x="656" dy="13" opacity="0.6">ウ</tspan><tspan x="656" dy="13" opacity="0.4">キ</tspan><tspan x="656" dy="13" opacity="0.2">コ</tspan><animateTransform attributeName="transform" type="translate" values="0 -301;0 99" dur="5.9s" begin="-2.8s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="694" dy="13" opacity="1.0">ス</tspan><tspan x="694" dy="13" opacity="0.86">セ</tspan><tspan x="694" dy="13" opacity="0.71">セ</tspan><tspan x="694" dy="13" opacity="0.57">ク</tspan><tspan x="694" dy="13" opacity="0.43">ア</tspan><tspan x="694" dy="13" opacity="0.29">ウ</tspan><tspan x="694" dy="13" opacity="0.14">イ</tspan><animateTransform attributeName="transform" type="translate" values="0 -115;0 285" dur="6.5s" begin="-4.8s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="731" dy="13" opacity="1.0">エ</tspan><tspan x="731" dy="13" opacity="0.89">ソ</tspan><tspan x="731" dy="13" opacity="0.78">0</tspan><tspan x="731" dy="13" opacity="0.67">オ</tspan><tspan x="731" dy="13" opacity="0.56">ソ</tspan><tspan x="731" dy="13" opacity="0.44">コ</tspan><tspan x="731" dy="13" opacity="0.33">ウ</tspan><tspan x="731" dy="13" opacity="0.22">$</tspan><tspan x="731" dy="13" opacity="0.11">0</tspan><animateTransform attributeName="transform" type="translate" values="0 -31;0 369" dur="6.5s" begin="-1.9s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="769" dy="13" opacity="1.0">キ</tspan><tspan x="769" dy="13" opacity="0.75">ソ</tspan><tspan x="769" dy="13" opacity="0.5">コ</tspan><tspan x="769" dy="13" opacity="0.25">エ</tspan><animateTransform attributeName="transform" type="translate" values="0 -83;0 317" dur="4.9s" begin="-1.1s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="806" dy="13" opacity="1.0">ケ</tspan><tspan x="806" dy="13" opacity="0.88">カ</tspan><tspan x="806" dy="13" opacity="0.75">%</tspan><tspan x="806" dy="13" opacity="0.62">オ</tspan><tspan x="806" dy="13" opacity="0.5">カ</tspan><tspan x="806" dy="13" opacity="0.38">サ</tspan><tspan x="806" dy="13" opacity="0.25">カ</tspan><tspan x="806" dy="13" opacity="0.12">オ</tspan><animateTransform attributeName="transform" type="translate" values="0 -346;0 54" dur="5.6s" begin="-2.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="844" dy="13" opacity="1.0">キ</tspan><tspan x="844" dy="13" opacity="0.75">セ</tspan><tspan x="844" dy="13" opacity="0.5">キ</tspan><tspan x="844" dy="13" opacity="0.25">オ</tspan><animateTransform attributeName="transform" type="translate" values="0 -132;0 268" dur="6.3s" begin="-6.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="881" dy="13" opacity="1.0">コ</tspan><tspan x="881" dy="13" opacity="0.89">コ</tspan><tspan x="881" dy="13" opacity="0.78">ア</tspan><tspan x="881" dy="13" opacity="0.67">カ</tspan><tspan x="881" dy="13" opacity="0.56">イ</tspan><tspan x="881" dy="13" opacity="0.44">カ</tspan><tspan x="881" dy="13" opacity="0.33">セ</tspan><tspan x="881" dy="13" opacity="0.22">オ</tspan><tspan x="881" dy="13" opacity="0.11">ケ</tspan><animateTransform attributeName="transform" type="translate" values="0 -48;0 352" dur="4.3s" begin="-2.7s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="919" dy="13" opacity="1.0">セ</tspan><tspan x="919" dy="13" opacity="0.75">コ</tspan><tspan x="919" dy="13" opacity="0.5">ア</tspan><tspan x="919" dy="13" opacity="0.25">イ</tspan><animateTransform attributeName="transform" type="translate" values="0 -258;0 142" dur="7.1s" begin="-5.6s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="956" dy="13" opacity="1.0">エ</tspan><tspan x="956" dy="13" opacity="0.86">シ</tspan><tspan x="956" dy="13" opacity="0.71">ケ</tspan><tspan x="956" dy="13" opacity="0.57">ア</tspan><tspan x="956" dy="13" opacity="0.43">サ</tspan><tspan x="956" dy="13" opacity="0.29">ス</tspan><tspan x="956" dy="13" opacity="0.14">サ</tspan><animateTransform attributeName="transform" type="translate" values="0 -279;0 121" dur="6.5s" begin="-0.6s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="994" dy="13" opacity="1.0">ウ</tspan><tspan x="994" dy="13" opacity="0.8">0</tspan><tspan x="994" dy="13" opacity="0.6">ウ</tspan><tspan x="994" dy="13" opacity="0.4">#</tspan><tspan x="994" dy="13" opacity="0.2">ス</tspan><animateTransform attributeName="transform" type="translate" values="0 -55;0 345" dur="6.7s" begin="-1.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="1031" dy="13" opacity="1.0">コ</tspan><tspan x="1031" dy="13" opacity="0.86">ウ</tspan><tspan x="1031" dy="13" opacity="0.71">$</tspan><tspan x="1031" dy="13" opacity="0.57">$</tspan><tspan x="1031" dy="13" opacity="0.43">ウ</tspan><tspan x="1031" dy="13" opacity="0.29">0</tspan><tspan x="1031" dy="13" opacity="0.14">0</tspan><animateTransform attributeName="transform" type="translate" values="0 -308;0 92" dur="6.7s" begin="-4.9s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="1069" dy="13" opacity="1.0">ウ</tspan><tspan x="1069" dy="13" opacity="0.88">シ</tspan><tspan x="1069" dy="13" opacity="0.75">オ</tspan><tspan x="1069" dy="13" opacity="0.62">オ</tspan><tspan x="1069" dy="13" opacity="0.5">0</tspan><tspan x="1069" dy="13" opacity="0.38">キ</tspan><tspan x="1069" dy="13" opacity="0.25">オ</tspan><tspan x="1069" dy="13" opacity="0.12">ク</tspan><animateTransform attributeName="transform" type="translate" values="0 -194;0 206" dur="5.5s" begin="-4.2s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="1106" dy="13" opacity="1.0">$</tspan><tspan x="1106" dy="13" opacity="0.83">シ</tspan><tspan x="1106" dy="13" opacity="0.67">ウ</tspan><tspan x="1106" dy="13" opacity="0.5">1</tspan><tspan x="1106" dy="13" opacity="0.33">コ</tspan><tspan x="1106" dy="13" opacity="0.17">ス</tspan><animateTransform attributeName="transform" type="translate" values="0 -96;0 304" dur="6.1s" begin="-5.0s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="1144" dy="13" opacity="1.0">ソ</tspan><tspan x="1144" dy="13" opacity="0.86">ウ</tspan><tspan x="1144" dy="13" opacity="0.71">$</tspan><tspan x="1144" dy="13" opacity="0.57">ウ</tspan><tspan x="1144" dy="13" opacity="0.43">ソ</tspan><tspan x="1144" dy="13" opacity="0.29">ソ</tspan><tspan x="1144" dy="13" opacity="0.14">0</tspan><animateTransform attributeName="transform" type="translate" values="0 -49;0 351" dur="7.0s" begin="-5.4s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="13" fill="#00FF9C" opacity="0.1" text-anchor="middle"><tspan x="1181" dy="13" opacity="1.0">ウ</tspan><tspan x="1181" dy="13" opacity="0.75">エ</tspan><tspan x="1181" dy="13" opacity="0.5">ウ</tspan><tspan x="1181" dy="13" opacity="0.25">セ</tspan><animateTransform attributeName="transform" type="translate" values="0 -329;0 71" dur="6.0s" begin="-0.7s" repeatCount="indefinite"/></text>
 </g>
 
-<!-- DECORATIVE CD -->
-
-<g transform="translate(1030 175)">
-
-  <circle r="76" fill="#111111" stroke="#888888" stroke-width="2"/>
-
-<circle r="62"
- fill="none"
- stroke="url(#chrome)"
- stroke-width="10"
- opacity="0.8"/>
-
-<circle r="42"
- fill="none"
- stroke="#00FF9C"
- stroke-opacity="0.7"
- stroke-width="2"/>
-
-<circle r="14"
- fill="#111111"
- stroke="#FFFFFF"
- stroke-opacity="0.7"/>
-
-  <circle r="4" fill="#00FF9C"/>
-
-<animateTransform
- attributeName="transform"
- type="rotate"
- from="0 0 0"
- to="360 0 0"
- dur="12s"
- repeatCount="indefinite"/>
-
+<g stroke="#00FF9C" stroke-opacity="0.025">
+<line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="3" x2="1200" y2="3"/><line x1="0" y1="6" x2="1200" y2="6"/><line x1="0" y1="9" x2="1200" y2="9"/><line x1="0" y1="12" x2="1200" y2="12"/><line x1="0" y1="15" x2="1200" y2="15"/><line x1="0" y1="18" x2="1200" y2="18"/><line x1="0" y1="21" x2="1200" y2="21"/><line x1="0" y1="24" x2="1200" y2="24"/><line x1="0" y1="27" x2="1200" y2="27"/><line x1="0" y1="30" x2="1200" y2="30"/><line x1="0" y1="33" x2="1200" y2="33"/><line x1="0" y1="36" x2="1200" y2="36"/><line x1="0" y1="39" x2="1200" y2="39"/><line x1="0" y1="42" x2="1200" y2="42"/><line x1="0" y1="45" x2="1200" y2="45"/><line x1="0" y1="48" x2="1200" y2="48"/><line x1="0" y1="51" x2="1200" y2="51"/><line x1="0" y1="54" x2="1200" y2="54"/><line x1="0" y1="57" x2="1200" y2="57"/><line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="63" x2="1200" y2="63"/><line x1="0" y1="66" x2="1200" y2="66"/><line x1="0" y1="69" x2="1200" y2="69"/><line x1="0" y1="72" x2="1200" y2="72"/><line x1="0" y1="75" x2="1200" y2="75"/><line x1="0" y1="78" x2="1200" y2="78"/><line x1="0" y1="81" x2="1200" y2="81"/><line x1="0" y1="84" x2="1200" y2="84"/><line x1="0" y1="87" x2="1200" y2="87"/><line x1="0" y1="90" x2="1200" y2="90"/><line x1="0" y1="93" x2="1200" y2="93"/><line x1="0" y1="96" x2="1200" y2="96"/><line x1="0" y1="99" x2="1200" y2="99"/><line x1="0" y1="102" x2="1200" y2="102"/><line x1="0" y1="105" x2="1200" y2="105"/><line x1="0" y1="108" x2="1200" y2="108"/><line x1="0" y1="111" x2="1200" y2="111"/><line x1="0" y1="114" x2="1200" y2="114"/><line x1="0" y1="117" x2="1200" y2="117"/><line x1="0" y1="120" x2="1200" y2="120"/><line x1="0" y1="123" x2="1200" y2="123"/><line x1="0" y1="126" x2="1200" y2="126"/><line x1="0" y1="129" x2="1200" y2="129"/><line x1="0" y1="132" x2="1200" y2="132"/><line x1="0" y1="135" x2="1200" y2="135"/><line x1="0" y1="138" x2="1200" y2="138"/><line x1="0" y1="141" x2="1200" y2="141"/><line x1="0" y1="144" x2="1200" y2="144"/><line x1="0" y1="147" x2="1200" y2="147"/><line x1="0" y1="150" x2="1200" y2="150"/><line x1="0" y1="153" x2="1200" y2="153"/><line x1="0" y1="156" x2="1200" y2="156"/><line x1="0" y1="159" x2="1200" y2="159"/><line x1="0" y1="162" x2="1200" y2="162"/><line x1="0" y1="165" x2="1200" y2="165"/><line x1="0" y1="168" x2="1200" y2="168"/><line x1="0" y1="171" x2="1200" y2="171"/><line x1="0" y1="174" x2="1200" y2="174"/><line x1="0" y1="177" x2="1200" y2="177"/><line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="183" x2="1200" y2="183"/><line x1="0" y1="186" x2="1200" y2="186"/><line x1="0" y1="189" x2="1200" y2="189"/><line x1="0" y1="192" x2="1200" y2="192"/><line x1="0" y1="195" x2="1200" y2="195"/><line x1="0" y1="198" x2="1200" y2="198"/><line x1="0" y1="201" x2="1200" y2="201"/><line x1="0" y1="204" x2="1200" y2="204"/><line x1="0" y1="207" x2="1200" y2="207"/><line x1="0" y1="210" x2="1200" y2="210"/><line x1="0" y1="213" x2="1200" y2="213"/><line x1="0" y1="216" x2="1200" y2="216"/><line x1="0" y1="219" x2="1200" y2="219"/><line x1="0" y1="222" x2="1200" y2="222"/><line x1="0" y1="225" x2="1200" y2="225"/><line x1="0" y1="228" x2="1200" y2="228"/><line x1="0" y1="231" x2="1200" y2="231"/><line x1="0" y1="234" x2="1200" y2="234"/><line x1="0" y1="237" x2="1200" y2="237"/><line x1="0" y1="240" x2="1200" y2="240"/><line x1="0" y1="243" x2="1200" y2="243"/><line x1="0" y1="246" x2="1200" y2="246"/><line x1="0" y1="249" x2="1200" y2="249"/><line x1="0" y1="252" x2="1200" y2="252"/><line x1="0" y1="255" x2="1200" y2="255"/><line x1="0" y1="258" x2="1200" y2="258"/><line x1="0" y1="261" x2="1200" y2="261"/><line x1="0" y1="264" x2="1200" y2="264"/><line x1="0" y1="267" x2="1200" y2="267"/><line x1="0" y1="270" x2="1200" y2="270"/><line x1="0" y1="273" x2="1200" y2="273"/><line x1="0" y1="276" x2="1200" y2="276"/><line x1="0" y1="279" x2="1200" y2="279"/><line x1="0" y1="282" x2="1200" y2="282"/><line x1="0" y1="285" x2="1200" y2="285"/><line x1="0" y1="288" x2="1200" y2="288"/><line x1="0" y1="291" x2="1200" y2="291"/><line x1="0" y1="294" x2="1200" y2="294"/><line x1="0" y1="297" x2="1200" y2="297"/><line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="303" x2="1200" y2="303"/><line x1="0" y1="306" x2="1200" y2="306"/><line x1="0" y1="309" x2="1200" y2="309"/><line x1="0" y1="312" x2="1200" y2="312"/><line x1="0" y1="315" x2="1200" y2="315"/><line x1="0" y1="318" x2="1200" y2="318"/><line x1="0" y1="321" x2="1200" y2="321"/><line x1="0" y1="324" x2="1200" y2="324"/><line x1="0" y1="327" x2="1200" y2="327"/><line x1="0" y1="330" x2="1200" y2="330"/><line x1="0" y1="333" x2="1200" y2="333"/><line x1="0" y1="336" x2="1200" y2="336"/><line x1="0" y1="339" x2="1200" y2="339"/><line x1="0" y1="342" x2="1200" y2="342"/><line x1="0" y1="345" x2="1200" y2="345"/><line x1="0" y1="348" x2="1200" y2="348"/><line x1="0" y1="351" x2="1200" y2="351"/><line x1="0" y1="354" x2="1200" y2="354"/><line x1="0" y1="357" x2="1200" y2="357"/>
 </g>
 
-<!-- SMALL SPARKLES -->
+<rect x="0" y="0" width="1200" height="30" fill="#080c09" stroke="#193024" stroke-width="1"/>
+<circle cx="18" cy="15" r="5" fill="#2a2f2a"/>
+<circle cx="36" cy="15" r="5" fill="#2a2f2a"/>
+<circle cx="54" cy="15" r="5" fill="#00FF9C" opacity="0.7"/>
+<text x="76" y="19" font-family="monospace" font-size="11" letter-spacing="1.5" fill="#4d6b58">sujana@dev: ~/portfolio — zsh</text>
+<text x="1180" y="19" text-anchor="end" font-family="monospace" font-size="10" fill="#00E5FF">live</text>
 
-<g fill="#00E5FF" filter="url(#pinkGlow)">
+<text x="60" y="90" font-family="monospace" font-size="13" fill="#4d6b58">guest@web:~$ ./whoami.sh</text>
 
-  <path d="M945 110 L949 122 L961 126 L949 130 L945 142 L941 130 L929 126 L941 122Z"/>
-
-  <path d="M235 185 L238 194 L247 197 L238 200 L235 209 L232 200 L223 197 L232 194Z"/>
-
+<g clip-path="url(#clipName)">
+  <text x="60" y="170" font-family="monospace" font-size="58" font-weight="700" letter-spacing="1" fill="#eafff4">sujana_sharma</text>
 </g>
-
-<!-- MAIN LABEL -->
-
-<text
-x="600"
-y="108"
-text-anchor="middle"
-font-family="monospace"
-font-size="10"
-letter-spacing="4"
-fill="#5CE0B8">
-root@sujana:~$ whoami </text>
-
-<!-- NAME -->
-
-<text
-x="600"
-y="180"
-text-anchor="middle"
-font-family="monospace"
-font-size="44"
-font-weight="700"
-letter-spacing="4"
-fill="#EAFFF4">
-SUJANA_SHARMA </text>
-
-<text
-x="600"
-y="216"
-text-anchor="middle"
-font-family="monospace"
-font-size="13"
-letter-spacing="5"
-fill="#00E5FF">
-&lt; WEB DEVELOPER /&gt;</text>
-
-<!-- TERMINAL -->
-
-<rect
-x="390"
-y="250"
-width="420"
-height="40"
-rx="8"
-fill="#090909"
-stroke="#00FF9C"
-stroke-opacity="0.5"/>
-
-<text
-x="415"
-y="275"
-font-family="monospace"
-font-size="12"
-fill="#777777">
-> </text>
-
-<text
-x="435"
-y="275"
-font-family="monospace"
-font-size="12"
-fill="#FFFFFF">
-full-stack developer_ </text>
-
-<!-- BLINKING CURSOR -->
-
-<rect
-x="600"
-y="263"
-width="7"
-height="15"
-fill="#00FF9C">
-
-<animate
- attributeName="opacity"
- values="1;0;1"
- dur="0.8s"
- repeatCount="indefinite"/>
-
+<rect x="60" y="145" width="4" height="42" fill="#00FF9C">
+  <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0" keyTimes="0;0.115;0.13;0.3;0.4;0.5;0.6;0.7;0.8;1" dur="2.6s" begin="0s" repeatCount="indefinite"/>
 </rect>
 
-<!-- BOTTOM DECOR -->
+<g clip-path="url(#clipRole)" transform="translate(60 195)">
+  <text x="0" y="15" font-family="monospace" font-size="18" fill="#00E5FF">&gt; backend-leaning full-stack developer</text>
+</g>
 
-<line
-x1="320"
-y1="325"
-x2="880"
-y2="325"
-stroke="url(#pink)"
-stroke-width="1"/>
+<g clip-path="url(#clipCmd)" transform="translate(60 250)">
+  <text x="0" y="15" font-family="monospace" font-size="13" fill="#7a9284">$ status --current</text>
+</g>
+<text x="60" y="278" font-family="monospace" font-size="12" fill="#4d6b58" opacity="0">
+  building things with django, react, postgresql
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.9;1" dur="5.8s" begin="0s" fill="freeze"/>
+</text>
 
-<circle cx="320" cy="325" r="4" fill="#00FF9C"/>
-<circle cx="880" cy="325" r="4" fill="#00FF9C"/>
+<g font-family="monospace" font-size="11" fill="#7a9284">
+  <text x="940" y="70" fill="#3d5a48">// stack.json</text>
+  <text x="940" y="92">"lang":    <tspan fill="#eafff4">"python"</tspan>,</text>
+  <text x="940" y="112">"backend": <tspan fill="#eafff4">"django"</tspan>,</text>
+  <text x="940" y="132">"frontend":<tspan fill="#eafff4">"react"</tspan>,</text>
+  <text x="940" y="152">"db":      <tspan fill="#eafff4">"postgres"</tspan>,</text>
+  <text x="940" y="172">"status":  <tspan fill="#00FF9C">"employed_soon"</tspan></text>
+</g>
+<rect x="920" y="45" width="240" height="150" rx="4" fill="none" stroke="#193024" stroke-width="1"/>
 
-<rect width="1200" height="360" rx="26" filter="url(#grain)" opacity="0.15"/>
-
-<rect x="0" y="0" width="1200" height="2" fill="#00E5FF" opacity="0.25">
-<animate attributeName="y" values="0;360;0" dur="5s" repeatCount="indefinite"/>
-</rect>
+<line x1="0" y1="334" x2="1200" y2="334" stroke="#193024" stroke-width="1"/>
+<text x="20" y="352" font-family="monospace" font-size="10" fill="#3d5a48">[ python3 whoami.sh ]  exit code: 0</text>
+<text x="1180" y="352" text-anchor="end" font-family="monospace" font-size="10" fill="#00FF9C">UTF-8</text>
 
 </svg>
