@@ -14,9 +14,9 @@
 
   <!-- Pink -->
   <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#FFB8E6"/>
-    <stop offset="0.45" stop-color="#FF3EAC"/>
-    <stop offset="1" stop-color="#FF008C"/>
+    <stop offset="0" stop-color="#8CFFCE"/>
+    <stop offset="0.45" stop-color="#00E5FF"/>
+    <stop offset="1" stop-color="#00FF9C"/>
   </linearGradient>
 
   <!-- Very subtle background -->
@@ -66,7 +66,7 @@
   height="386"
   rx="20"
   fill="#0C090B"
-  stroke="#FF008C"
+  stroke="#00FF9C"
   stroke-width="1.5"
   stroke-opacity="0.7"/>
 
@@ -103,7 +103,7 @@
 
 <!-- Window controls -->
 
-<circle cx="62" cy="47" r="6" fill="#FF008C"/>
+<circle cx="62" cy="47" r="6" fill="#00FF9C"/>
 <circle cx="82" cy="47" r="6" fill="#F5F5F5"/>
 <circle cx="102" cy="47" r="6" fill="#666666"/>
 
@@ -127,7 +127,7 @@
   cx="1128"
   cy="49"
   r="2.5"
-  fill="#FF008C"/>
+  fill="#00FF9C"/>
 
 <text
   x="1177"
@@ -136,7 +136,7 @@
   font-family="monospace"
   font-size="9"
   letter-spacing="1.5"
-  fill="#FF4FB3">
+  fill="#00E5FF">
   ONLINE
 </text>
 
@@ -173,7 +173,7 @@
   font-family="monospace"
   font-size="10"
   letter-spacing="3"
-  fill="#FF3EAC">
+  fill="#00E5FF">
   // HELLO, INTERNET
 </text>
 
@@ -183,12 +183,12 @@
 <text
   x="80"
   y="164"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="32"
-  font-weight="900"
-  letter-spacing="-0.5"
-  fill="url(#chrome)">
-  I'M SUJANA.
+  font-family="monospace"
+  font-size="24"
+  font-weight="700"
+  letter-spacing="0"
+  fill="#EAFFF4">
+  &gt; i_am_sujana
 </text>
 
 
@@ -220,7 +220,7 @@
   y="230"
   width="34"
   height="2"
-  fill="#FF008C"/>
+  fill="#00FF9C"/>
 
 
 <!-- Divider -->
@@ -253,7 +253,7 @@
   cx="83"
   cy="295"
   r="2.7"
-  fill="#FF3EAC"/>
+  fill="#00E5FF"/>
 
 <text
   x="97"
@@ -271,7 +271,7 @@
   cx="83"
   cy="318"
   r="2.7"
-  fill="#FF3EAC"/>
+  fill="#00E5FF"/>
 
 <text
   x="97"
@@ -289,14 +289,14 @@
   cx="83"
   cy="341"
   r="2.7"
-  fill="#FF3EAC"/>
+  fill="#00E5FF"/>
 
 <text
   x="97"
   y="345"
   font-family="monospace"
   font-size="11.5"
-  fill="#FF4FB3">
+  fill="#00E5FF">
   learning → building → shipping
 </text>
 
@@ -342,7 +342,7 @@
   font-family="monospace"
   font-size="10"
   letter-spacing="3"
-  fill="#FF3EAC">
+  fill="#00E5FF">
   // THINGS I LIKE
 </text>
 
@@ -351,7 +351,7 @@
 <!-- PINK STAR -->
 <!-- ========================================================= -->
 
-<g fill="#FF3EAC" filter="url(#pinkGlow)">
+<g fill="#00E5FF" filter="url(#pinkGlow)">
 
   <path
     d="M1142 96
@@ -378,7 +378,7 @@
   height="39"
   rx="20"
   fill="#151113"
-  stroke="#FF008C"
+  stroke="#00FF9C"
   stroke-width="1"/>
 
 <text
@@ -450,7 +450,7 @@
   height="39"
   rx="20"
   fill="#151113"
-  stroke="#FF008C"
+  stroke="#00FF9C"
   stroke-width="1"/>
 
 <text
@@ -534,7 +534,7 @@
   text-anchor="end"
   font-family="monospace"
   font-size="8"
-  fill="#FF4FB3">
+  fill="#00E5FF">
   READY
 </text>
 
@@ -558,7 +558,7 @@
   width="270"
   height="4"
   rx="2"
-  fill="#FF008C"/>
+  fill="#00FF9C"/>
 
 
 <!-- ========================================================= -->
@@ -582,7 +582,7 @@
   text-anchor="end"
   font-family="monospace"
   font-size="7"
-  fill="#FF008C">
+  fill="#00FF9C">
   0.01
 </text>
 
