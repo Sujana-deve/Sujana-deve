@@ -10,7 +10,7 @@ Final-year Computer Engineering student. Python developer intern at Brand Builde
 | FashionHub | E-commerce app: cart, checkout, reviews, auth, order history, eSewa sandbox payments | Django, PostgreSQL |
 | HelloThere | Real-time chat over WebSockets | Django Channels, React |
 | Bookify | Book recommender using TF-IDF and cosine similarity | Python, scikit-learn |
-| Neon Surge | Browser game released on CrazyGames | JavaScript |
+| Highway Rally | Racing game built with HTML5, CSS, and JS, released on GamePix | HTML5, CSS, JavaScript |
 | AI Comment Assistant | Chrome extension that classifies comment opportunities with Gemini | JavaScript, Gemini API |
 
 ## Stack
