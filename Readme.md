@@ -1,184 +1,26 @@
-<div align="center">
+<img src="hero.svg" alt="Sujana Sharma, Python developer" width="100%">
 
-<img src="./hero.svg" width="100%" alt="Sujana Sharma"/>
+Final-year Computer Engineering student. Python developer intern at Brand Builder.
 
-</div>
+## Projects
 
-<br>
+| Project | What it is | Stack |
+|---|---|---|
+| Lead Scoring Automation | Django dashboard with time-decay lead scoring (30-day half-life), CSV upload, filtering | Python, Django, Pandas |
+| FashionHub | E-commerce app: cart, checkout, reviews, auth, order history, eSewa sandbox payments | Django, PostgreSQL |
+| HelloThere | Real-time chat over WebSockets | Django Channels, React |
+| Bookify | Book recommender using TF-IDF and cosine similarity | Python, scikit-learn |
+| Neon Surge | Browser game released on CrazyGames | JavaScript |
+| AI Comment Assistant | Chrome extension that classifies comment opportunities with Gemini | JavaScript, Gemini API |
 
-<div align="center">
+## Stack
 
-`COMPUTER_ENGINEERING` &nbsp;&nbsp;
-`PYTHON_DEVELOPER` &nbsp;&nbsp;
-`FULL_STACK`
+**Languages** Python, JavaScript
+**Backend** Django, Django REST Framework, PostgreSQL, SQLite
+**Frontend** React, Vite, Tailwind CSS, Framer Motion
+**Automation** Pandas, BeautifulSoup, Playwright
+**Other** WebSockets, REST APIs, Git
 
-</div>
+## Contact
 
-<br>
-
----
-
-## ABOUT_SUJANA
-
-<div align="center">
-
-<img src="./about.svg" width="100%" alt="About Sujana"/>
-
-</div>
-
----
-
-## TECH_STACK
-
-<div align="center">
-
-<img src="./stack.svg" width="100%" alt="Sujana's technology stack"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-### LANGUAGES
-
-`Python` `JavaScript`
-
-### BACKEND
-
-`Django` `Django REST Framework`
-
-### FRONTEND
-
-`React` `Vite` `Tailwind CSS` `Framer Motion`
-
-### DATA / AUTOMATION
-
-`Pandas` `BeautifulSoup` `Playwright` `schedule`
-
-### DATABASES / OTHER
-
-`PostgreSQL` `SQLite` `WebSockets` `REST APIs` `Git`
-
-</div>
-
----
-
-## PROJECT_ARCHIVE
-
-<div align="center">
-
-<img src="./projects.svg" width="100%" alt="Project archive"/>
-
-</div>
-
-<br>
-
-### `01` —  Lead Scoring Automation
-
-A Django dashboard built around **time-decay lead scoring**.
-
-It started as a Python script and grew into a system with exponential decay, a 30-day half-life, compound bonuses, CSV uploads, filtering, and a results interface.
-
-`Python` `Django` `Pandas`
-
----
-
-### `02` —  FashionHub
-
-A Django e-commerce application with cart, checkout, product reviews, authentication, password reset, order history, and **eSewa sandbox payments**.
-
-`Django` `PostgreSQL` `eSewa`
-
----
-
-### `03` —  HelloThere
-
-A real-time chat application with a Django Channels backend and React frontend.
-
-Built around WebSockets and persistent real-time communication.
-
-`Django Channels` `React` `WebSockets`
-
----
-
-### `04` —  Bookify
-
-A book recommendation system using **TF-IDF + cosine similarity** to discover books with similar content.
-
-`Python` `scikit-learn`
-
----
-
-### `05` —  Neon Surge
-
-A browser game released on CrazyGames with platform SDK integration.
-
-`JavaScript` `Game Development`
-
----
-
-### `06` —  AI Comment Assistant
-
-A Chrome extension exploring AI-assisted intent filtering and automated browser workflows.
-
-Uses Gemini to classify potential comment opportunities and interact with dynamically rendered content.
-
-`JavaScript` `Chrome Extension` `Gemini API`
-
----
-
-## MISC
-
-<div align="center">
-
-`building` &nbsp;&nbsp;
-`experimenting` &nbsp;&nbsp;
-`debugging` &nbsp;&nbsp;
-`learning`
-
-<br><br>
-
-<img src="https://img.shields.io/badge/OPEN%20TABS-∞-111111?style=flat-square&labelColor=00FF9C&color=111111"/>
-
-<img src="https://img.shields.io/badge/IDE-VSCODE-111111?style=flat-square&labelColor=00E5FF&color=111111"/>
-
-<img src="https://img.shields.io/badge/MOOD-DEPENDS%20ON%20THE%20BUILD-111111?style=flat-square&labelColor=FFFFFF&color=111111"/>
-
-</div>
-
----
-
-## FIND_ME
-
-<div align="center">
-
-<a href="https://sujanasharma.com.np">
-<img src="https://img.shields.io/badge/PORTFOLIO-00FF9C?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111111"/>
-</a>
-
-<a href="https://www.linkedin.com/in/sujana-sharma-49779934b/">
-<img src="https://img.shields.io/badge/LINKEDIN-00E5FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111111"/>
-</a>
-
-<a href="mailto:sharmasujana420@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=111111"/>
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="./footer.svg" width="100%" alt="Keep building"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<sub>built with caffeine and stubbornness</sub>
-
-</div>
+[Portfolio](https://sujanasharma.com.np) · [LinkedIn](https://www.linkedin.com/in/sujana-sharma-49779934b/) · [Email](mailto:sharmasujana420@gmail.com)
